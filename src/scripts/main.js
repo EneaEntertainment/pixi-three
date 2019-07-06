@@ -86,8 +86,7 @@ export default class Boot
         const options =
         {
             view              : this.threeRenderer.domElement,
-            clearBeforeRender : false,
-            powerPreference   : 'high-performance'
+            clearBeforeRender : false
         };
 
         this.pixiRenderer = new Renderer(options);
